@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import SearchCountries from "./containers/SearchCountries"
+import Map from "./containers/Map"
 
 class App extends Component {
   render() {
     return (
       <div>
-        Herllo
+        <Map />
       </div>
     );
   }
